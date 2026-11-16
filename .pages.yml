@@ -82,7 +82,7 @@ content:
             type: image
             list: true
           - name: video
-            label: Link do filmu na YouTube (opcjonalnie)
+            label: Film z koncertu — YouTube lub Facebook (opcjonalnie)
             type: string
           - name: published
             label: Widoczny na stronie
