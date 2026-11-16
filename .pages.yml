@@ -34,6 +34,28 @@ content:
       - name: email
         label: Email kontaktowy (opcjonalnie)
         type: string
+      - name: guestbook
+        label: Księga gości — zatwierdzone wpisy
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - name: name
+            label: Podpis autora
+            type: string
+            required: true
+          - name: date
+            label: Data wpisu (RRRR-MM-DD, opcjonalnie)
+            type: string
+          - name: text
+            label: Treść wspomnienia
+            type: text
+            required: true
+          - name: published
+            label: Widoczny na stronie
+            type: boolean
       - name: concerts
         label: Koncerty
         type: object
