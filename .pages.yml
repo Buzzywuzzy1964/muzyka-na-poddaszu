@@ -25,6 +25,9 @@ content:
       - name: about
         label: O idei
         type: text
+      - name: about_full
+        label: O nas — pełna opowieść (akapity oddziel pustą linią)
+        type: text
       - name: facebook
         label: Link do Facebooka (opcjonalnie)
         type: string
