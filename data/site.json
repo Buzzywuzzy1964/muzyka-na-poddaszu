@@ -1,0 +1,29 @@
+{
+  "title": "Muzyka na poddaszu",
+  "subtitle": "kameralne koncerty domowe • Żyrardów",
+  "motto": "Nie mamy sceny. Mamy poddasze.",
+  "intro": "Spotkania z muzyką w domu Piotra i Beaty — wśród książek, winyli, przyjaciół oraz Yoko i Pixie.",
+  "about": "To nie klub ani sala koncertowa. To domowe spotkania z muzyką — bliskie, skupione, rodzinne. Po koncercie zostajemy razem jeszcze długo. Organizujemy je wtedy, kiedy możemy i kiedy serce podpowiada, że warto.",
+  "facebook": "",
+  "email": "",
+  "concerts": [
+    {
+      "artist": "Piotr Damasiewicz & Justyna Miguła",
+      "date": "2026-11-07",
+      "description": "Kameralne spotkanie z muzyką na naszym poddaszu. Tutaj można dopisać wspomnienie z wieczoru.",
+      "poster": "/assets/damasiewicz-migula.jpg",
+      "photos": [],
+      "video": "",
+      "published": true
+    },
+    {
+      "artist": "Bajzel",
+      "date": "",
+      "description": "Jeden z naszych domowych muzycznych wieczorów. Tu dodamy datę, zdjęcia i historię koncertu.",
+      "poster": "/assets/bajzel.jpg",
+      "photos": [],
+      "video": "",
+      "published": true
+    }
+  ]
+}

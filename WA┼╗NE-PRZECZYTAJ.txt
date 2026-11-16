@@ -1,0 +1,7 @@
+WERSJA WIERNA GRAFICE – PRÓBNA
+
+Strona na górze pokazuje dokładnie zaakceptowaną grafikę, z nałożonymi klikalnymi obszarami prowadzącymi do prawdziwego archiwum poniżej. To ETAP PRZEJŚCIOWY, a nie skończona realizacja graficzna HTML: teksty, ilustracyjne cytaty i daty wewnątrz dużego obrazu są elementem obrazu i nie można ich zmienić przez edycję danych.
+
+Archiwum pod obrazem działa na podstawie pliku data/site.json: tam można edytować wpisy. Publikacja na GitHub Pages wymaga oddzielnej konfiguracji. Panel Pages CMS zawarty w .pages.yml także wymaga konfiguracji uprawnień i logowania.
+
+Ostateczna wersja powinna zostać odtworzona jako osobne elementy HTML/CSS z w pełni edytowalnymi tekstami i zdjęciami, a nie jako obraz. Nie udostępniaj tej próbnej wersji jako ukończonej strony.

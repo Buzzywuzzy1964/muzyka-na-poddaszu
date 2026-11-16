@@ -1,0 +1,64 @@
+media:
+  input: assets/uploads
+  output: /assets/uploads
+  rename: safe
+  categories: [image]
+content:
+  - name: site
+    label: Treść strony i koncerty
+    type: file
+    path: data/site.json
+    format: json
+    fields:
+      - name: title
+        label: Tytuł
+        type: string
+      - name: subtitle
+        label: Podtytuł
+        type: string
+      - name: motto
+        label: Motto
+        type: string
+      - name: intro
+        label: Wprowadzenie
+        type: text
+      - name: about
+        label: O idei
+        type: text
+      - name: facebook
+        label: Link do Facebooka (opcjonalnie)
+        type: string
+      - name: email
+        label: Email kontaktowy (opcjonalnie)
+        type: string
+      - name: concerts
+        label: Koncerty
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{artist}"
+        fields:
+          - name: artist
+            label: Wykonawca
+            type: string
+            required: true
+          - name: date
+            label: Data (RRRR-MM-DD, opcjonalnie)
+            type: string
+          - name: description
+            label: Wspomnienie / opis
+            type: text
+          - name: poster
+            label: Zdjęcie lub plakat główny
+            type: image
+          - name: photos
+            label: Galeria fotografii
+            type: image
+            list: true
+          - name: video
+            label: Link do filmu na YouTube (opcjonalnie)
+            type: string
+          - name: published
+            label: Widoczny na stronie
+            type: boolean

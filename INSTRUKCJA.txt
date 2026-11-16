@@ -1,0 +1,37 @@
+MUZYKA NA PODDASZU — PIERWSZA WERSJA STRONY
+
+CO TO JEST?
+Gotowa pierwsza wersja prawdziwej, responsywnej strony internetowej z archiwum koncertów,
+zdjęciami i możliwością wstawienia filmów YouTube. Teksty i koncerty są PRZYKŁADOWE:
+trzeba je sprawdzić i uzupełnić, zanim udostępnimy stronę znajomym.
+Grafiki to fragmenty koncepcyjnej wizualizacji, a nie rzeczywiste zdjęcia występów.
+
+JAK UDOSTĘPNIĆ PUBLICZNIE — GITHUB PAGES
+1. Załóż bezpłatne konto na https://github.com (jeśli jeszcze go nie masz).
+2. Utwórz PUBLICZNE repozytorium o nazwie np. muzyka-na-poddaszu.
+3. Prześlij ZAWARTOŚĆ rozpakowanego folderu do głównego katalogu repozytorium
+   (w tym ukryty plik .pages.yml — może być niewidoczny w Eksploratorze Windows).
+4. W repozytorium otwórz Settings > Pages > Build and deployment.
+   Wybierz Deploy from a branch, gałąź main, folder /(root), kliknij Save.
+5. Po opublikowaniu adres będzie miał postać:
+   https://TWOJ-LOGIN.github.io/muzyka-na-poddaszu/
+   Nie jest to gotowy adres, dopóki nie utworzysz swojego repozytorium.
+
+JAK DODAWAĆ KONCERTY I ZDJĘCIA
+1. Wejdź na https://app.pagescms.org i zaloguj się przez konto GitHub.
+2. Zezwól aplikacji Pages CMS na dostęp do wybranego repozytorium.
+3. Otwórz repozytorium muzyka-na-poddaszu i sekcję "Treść strony i koncerty".
+4. W sekcji "Koncerty" dodawaj wykonawcę, opis, plakat, wiele zdjęć, link YouTube.
+5. Zapisz. Pages CMS zapisuje dane w GitHub; GitHub Pages po aktualizacji
+   opublikuje nową treść na stronie.
+
+WAŻNE
+- Nie trzeba kupować domeny na początek.
+- W tym wariancie panel jest osobną stroną (Pages CMS), a nie częścią publicznej witryny.
+- Wpisy księgi gości i indywidualne konta osób odwiedzających nie są jeszcze zaimplementowane.
+- Nie publikuj prywatnego adresu domowego, telefonu ani zdjęć osób bez zgody.
+- Link YouTube musi prowadzić do filmu youtube.com/watch?v=... lub youtu.be/...
+- Testy samej strony wymagają serwera HTTP (np. publicznego GitHub Pages),
+  ponieważ przeglądarka często blokuje pobieranie pliku JSON po otwarciu index.html
+  bezpośrednio z dysku.
+- Jeśli podczas konfiguracji coś nie działa, wróć z ekranem / zrzutem, przejdziemy to wspólnie.
